@@ -4,12 +4,16 @@
   "description": "Projeto para acompanhar as aulas do Rocketseat Starter de NodeJS, para criar uma API REST usando Javascript e entender melhor sobre a plataforma.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
   }
 }
